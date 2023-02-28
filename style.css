@@ -1,0 +1,43 @@
+body {
+    background-image: url("mac.jpg");
+   background-size: cover;
+  }
+  
+  #clock {
+    text-align: center;
+    display: block;
+    font-size: 8em;
+    height: 100px;
+    color: rgb(255, 255, 255);
+  
+    position: absolute;
+    top: 6;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .taskbar{
+    width: 99.40%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+
+
+  }
+  .taskbar img{
+    border-radius:23px ;
+  }
+
+ .start{
+
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+
+ }
+ .start img{
+    border-radius: 5px;
+ }
+  
